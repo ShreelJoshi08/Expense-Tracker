@@ -15,7 +15,12 @@ A basic web application to track expenses, built with Flask and SQLite.
    pip install -r requirements.txt
    ```
 
-3. Run the app:
+3. Create a `.env` file in the project root and add your secret key:
+   ```
+   SECRET_KEY=your-strong-secret-key
+   ```
+
+4. Run the app:
    ```
    python app.py
    ```
